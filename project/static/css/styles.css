@@ -1,0 +1,114 @@
+body {
+    background: #f0f8ff;
+}
+
+.container {
+    max-width: 900px;
+    margin-top: 20px;
+}
+
+.heading {
+    color: #add8e6;
+    margin-bottom: 10px; /* Reduced bottom margin */
+    text-align: center; /* Centered the heading */
+}
+
+.btn-submit {
+    background: #90ee90; /* Light Green */
+    color: #fff;
+}
+
+.btn-submit:hover {
+    background: #76c7c0; /* Darker Green */
+}
+
+.btn-edit {
+    background: #ffffe0; /* Light Yellow */
+    color: #000;
+}
+
+.btn-edit:hover {
+    background: #f0e68c; /* Darker Yellow */
+}
+
+.btn-danger {
+    background: #dc3545; /* Danger Red */
+    color: #fff;
+    border: none;
+}
+
+.btn-danger:hover {
+    background: #c82333; /* Darker Red */
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.form-row .col-md-3, .form-row .col-md-2, .form-row .col-md-1 {
+    flex: 1;
+}
+
+.form-row .col-md-3 {
+    max-width: 150px;
+}
+
+.form-row .col-md-2 {
+    max-width: 120px;
+}
+
+.form-row .col-md-1 {
+    max-width: 80px;
+}
+
+.form-row .form-control {
+    max-width: 100%;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 10px; /* Adjusted margin to align with form */
+}
+
+.form-actions .btn {
+    flex-shrink: 0;
+}
+
+#searchForm {
+    margin-bottom: 10px; /* Reduced the gap */
+}
+
+.search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-container input {
+    max-width: 300px;
+}
+
+.form-container {
+    margin-top: 0;
+}
+
+.form-row > .form-control {
+    max-width: 100%;
+}
+
+.add-appointment-container {
+    margin-top: 10px; /* Reduced the gap above the button */
+}
+
+.form-row .btn-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 19px;
+}
